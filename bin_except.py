@@ -13,7 +13,7 @@ def binary_search(a_list, target):
     """
   Searches a_list for an occurrence of target
   If found, returns the index of its position in the list
-  If not found, returns -1, indicating the target value isn't in the list
+  If not found, TargetNotFound is raised , indicating the target value isn't in the list
   """
     first = 0
     last = len(a_list) - 1
